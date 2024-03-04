@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0718058A2B80D9F00094919A /* QueryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071805882B80D9F00094919A /* QueryViewCell.swift */; };
+		0718058B2B80D9F00094919A /* QueryViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 071805892B80D9F00094919A /* QueryViewCell.xib */; };
+		0718058E2B80E4650094919A /* AnswerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0718058C2B80E4650094919A /* AnswerViewCell.swift */; };
+		0718058F2B80E4650094919A /* AnswerViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0718058D2B80E4650094919A /* AnswerViewCell.xib */; };
+		071805912B81E32C0094919A /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071805902B81E32C0094919A /* ResultViewController.swift */; };
+		071805932B81E8090094919A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071805922B81E8090094919A /* HomeViewController.swift */; };
+		071805972B8255670094919A /* QuizeViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071805962B8255670094919A /* QuizeViewExtension.swift */; };
 		07A16DA72B80B88C00D6DD2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A16DA62B80B88C00D6DD2F /* AppDelegate.swift */; };
 		07A16DA92B80B88C00D6DD2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A16DA82B80B88C00D6DD2F /* SceneDelegate.swift */; };
-		07A16DAB2B80B88C00D6DD2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A16DAA2B80B88C00D6DD2F /* ViewController.swift */; };
+		07A16DAB2B80B88C00D6DD2F /* QuizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A16DAA2B80B88C00D6DD2F /* QuizeViewController.swift */; };
 		07A16DAE2B80B88C00D6DD2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07A16DAC2B80B88C00D6DD2F /* Main.storyboard */; };
 		07A16DB02B80B89000D6DD2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07A16DAF2B80B89000D6DD2F /* Assets.xcassets */; };
 		07A16DB32B80B89000D6DD2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07A16DB12B80B89000D6DD2F /* LaunchScreen.storyboard */; };
+		07A16DBC2B80B98400D6DD2F /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A16DBB2B80B98400D6DD2F /* Query.swift */; };
+		07A16DC42B80BEC500D6DD2F /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A16DC32B80BEC500D6DD2F /* APIManager.swift */; };
+		07A16DC72B80BF2200D6DD2F /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A16DC62B80BF2200D6DD2F /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		071805882B80D9F00094919A /* QueryViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryViewCell.swift; sourceTree = "<group>"; };
+		071805892B80D9F00094919A /* QueryViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QueryViewCell.xib; sourceTree = "<group>"; };
+		0718058C2B80E4650094919A /* AnswerViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerViewCell.swift; sourceTree = "<group>"; };
+		0718058D2B80E4650094919A /* AnswerViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnswerViewCell.xib; sourceTree = "<group>"; };
+		071805902B81E32C0094919A /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		071805922B81E8090094919A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		071805962B8255670094919A /* QuizeViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizeViewExtension.swift; sourceTree = "<group>"; };
 		07A16DA32B80B88C00D6DD2F /* QuizeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07A16DA62B80B88C00D6DD2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07A16DA82B80B88C00D6DD2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		07A16DAA2B80B88C00D6DD2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07A16DAA2B80B88C00D6DD2F /* QuizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizeViewController.swift; sourceTree = "<group>"; };
 		07A16DAD2B80B88C00D6DD2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07A16DAF2B80B89000D6DD2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07A16DB22B80B89000D6DD2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07A16DB42B80B89000D6DD2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07A16DBB2B80B98400D6DD2F /* Query.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Query.swift; sourceTree = "<group>"; };
+		07A16DC32B80BEC500D6DD2F /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		07A16DC62B80BF2200D6DD2F /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +57,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		071805942B82230A0094919A /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				07A16DA62B80B88C00D6DD2F /* AppDelegate.swift */,
+				07A16DA82B80B88C00D6DD2F /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		071805952B8223350094919A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				07A16DAA2B80B88C00D6DD2F /* QuizeViewController.swift */,
+				071805902B81E32C0094919A /* ResultViewController.swift */,
+				071805922B81E8090094919A /* HomeViewController.swift */,
+				071805962B8255670094919A /* QuizeViewExtension.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		07A16D9A2B80B88C00D6DD2F = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +96,53 @@
 		07A16DA52B80B88C00D6DD2F /* QuizeTest */ = {
 			isa = PBXGroup;
 			children = (
-				07A16DA62B80B88C00D6DD2F /* AppDelegate.swift */,
-				07A16DA82B80B88C00D6DD2F /* SceneDelegate.swift */,
-				07A16DAA2B80B88C00D6DD2F /* ViewController.swift */,
+				071805952B8223350094919A /* Controllers */,
+				071805942B82230A0094919A /* Application */,
+				07A16DC52B80BF2200D6DD2F /* Constants */,
+				07A16DC22B80BEC500D6DD2F /* Utility */,
+				07A16DBD2B80BE5000D6DD2F /* CellView */,
+				07A16DBA2B80B95300D6DD2F /* Modal */,
 				07A16DAC2B80B88C00D6DD2F /* Main.storyboard */,
 				07A16DAF2B80B89000D6DD2F /* Assets.xcassets */,
 				07A16DB12B80B89000D6DD2F /* LaunchScreen.storyboard */,
 				07A16DB42B80B89000D6DD2F /* Info.plist */,
 			);
 			path = QuizeTest;
+			sourceTree = "<group>";
+		};
+		07A16DBA2B80B95300D6DD2F /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				07A16DBB2B80B98400D6DD2F /* Query.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		07A16DBD2B80BE5000D6DD2F /* CellView */ = {
+			isa = PBXGroup;
+			children = (
+				071805882B80D9F00094919A /* QueryViewCell.swift */,
+				071805892B80D9F00094919A /* QueryViewCell.xib */,
+				0718058C2B80E4650094919A /* AnswerViewCell.swift */,
+				0718058D2B80E4650094919A /* AnswerViewCell.xib */,
+			);
+			path = CellView;
+			sourceTree = "<group>";
+		};
+		07A16DC22B80BEC500D6DD2F /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				07A16DC32B80BEC500D6DD2F /* APIManager.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		07A16DC52B80BF2200D6DD2F /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				07A16DC62B80BF2200D6DD2F /* Constant.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +203,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0718058F2B80E4650094919A /* AnswerViewCell.xib in Resources */,
 				07A16DB32B80B89000D6DD2F /* LaunchScreen.storyboard in Resources */,
+				0718058B2B80D9F00094919A /* QueryViewCell.xib in Resources */,
 				07A16DB02B80B89000D6DD2F /* Assets.xcassets in Resources */,
 				07A16DAE2B80B88C00D6DD2F /* Main.storyboard in Resources */,
 			);
@@ -138,9 +218,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07A16DAB2B80B88C00D6DD2F /* ViewController.swift in Sources */,
+				07A16DC72B80BF2200D6DD2F /* Constant.swift in Sources */,
+				07A16DC42B80BEC500D6DD2F /* APIManager.swift in Sources */,
+				07A16DBC2B80B98400D6DD2F /* Query.swift in Sources */,
+				0718058E2B80E4650094919A /* AnswerViewCell.swift in Sources */,
+				071805912B81E32C0094919A /* ResultViewController.swift in Sources */,
+				07A16DAB2B80B88C00D6DD2F /* QuizeViewController.swift in Sources */,
+				071805932B81E8090094919A /* HomeViewController.swift in Sources */,
 				07A16DA72B80B88C00D6DD2F /* AppDelegate.swift in Sources */,
 				07A16DA92B80B88C00D6DD2F /* SceneDelegate.swift in Sources */,
+				071805972B8255670094919A /* QuizeViewExtension.swift in Sources */,
+				0718058A2B80D9F00094919A /* QueryViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,8 +385,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,9 +395,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rkapps.QuizeTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -324,8 +416,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,9 +426,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rkapps.QuizeTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
